@@ -163,7 +163,7 @@ async def main():
     start_time3=time.time()
     print(f'sort need {start_time3-start_time2} s')
     dic_final = {}
-    time1 = 569785 * 1735 * 0.01  # The total number of hours, we should be 10% of the total time
+    time1 = 569785 * 1735 * 0.01  # The total number of hours, we should be 1% of the total time
     flag = -1
 
     for key, value in dict_true.items():
